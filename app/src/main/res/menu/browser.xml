@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_backword"
+        android:icon="@drawable/ic_action_backword"
+        android:title="back"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_home"
+        android:icon="@drawable/ic_action_home"
+        android:title="Home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_forword"
+        android:icon="@drawable/ic_action_forward"
+        android:title="Forward"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_google"
+        android:title="Free books    "
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_mu"
+        android:title="Mumbai university   "
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_tp"
+        android:title="tutorialspoint.com   "
+        app:showAsAction="ifRoom" />
+
+</menu>
